@@ -1,4 +1,4 @@
-## FrameKeeper - 轻量级智能屏幕截图与录屏工具 <img src="https://img.shields.io/badge/version-1.0-blue" alt="版本">
+## FrameKeeper - 轻量级智能屏幕截图与录屏工具 <img src="https://img.shields.io/badge/version-0.1-blue" alt="版本">
 
 📸 定时自动截图 | 🎥 图片转视频 | 🛡️ 后台静默运行
 
