@@ -1,0 +1,3 @@
+color a
+cd /d C:\Users\DELL\Desktop
+pyinstaller --version-file file_version_info.txt --onefile --windowed --icon=FrameKeeper.ico FrameKeeper_1.0.py
