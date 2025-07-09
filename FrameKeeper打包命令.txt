@@ -1,3 +1,5 @@
-color a
-cd /d C:\Users\DELL\Desktop
-pyinstaller --version-file file_version_info.txt --onefile --windowed --icon=FrameKeeper.ico FrameKeeper_1.0.py
+```cmd
+cd /d "C:\Users\DELL\Desktop\FrameKeeper\0.6阶段(打包的兼容性处理(FFmpeg相对路径)、代码注释、结构优化)"
+pyinstaller --windowed --icon=FrameKeeper.ico --add-data "C:\ffmpeg\bin\ffmpeg.exe;." "FrameKeeper_0.6.1(为打包作准备：FFmpeg相对路径).py"
+
+```
