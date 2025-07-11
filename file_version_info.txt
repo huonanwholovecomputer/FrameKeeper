@@ -1,32 +1,28 @@
 VSVersionInfo(
-    ffi=FixedFileInfo(
-        filevers=(0, 6, 1, 0),
-        prodvers=(0, 6, 1, 0),
-        mask=0x3f,
-        flags=0x0,
-        OS=0x4,
-        fileType=0x1,
-        subtype=0x0,
-        date=(0, 0)
-    ),
-    kids=[
-        StringFileInfo(
-            [
-                StringTable(
-                    u'040904B0',
-                    [
-                        StringStruct(u'CompanyName', u'huonanwholovecomputer'),
-                        StringStruct(u'FileDescription', u'FrameKeeper'),
-                        StringStruct(u'FileVersion', u'0.6.1.0'),
-                        StringStruct(u'InternalName', u'FrameKeeper'),
-                        StringStruct(u'LegalCopyright', u'© Github_huonanwholovecomputer 2025'),
-                        StringStruct(u'OriginalFilename', u'FrameKeeper.exe'),
-                        StringStruct(u'ProductName', u'FrameKeeper'),
-                        StringStruct(u'ProductVersion', u'0.6.1.0')
-                    ]
-                )
-            ]
-        ),
-        VarFileInfo([VarStruct(u'Translation', [2052, 1200])])
-    ]
+  ffi=FixedFileInfo(
+    filevers=(0, 7, 1, 0),  # 改为实际版本号
+    prodvers=(0, 7, 1, 0),  # 改为实际版本号
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,  # 修正OS标识 (Windows 32位)
+    fileType=0x1,  # 应用程序类型
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([StringTable(
+      '040904B0',  # 语言/编码 (英语-美国/UTF-16)
+      [
+        StringStruct('CompanyName', 'huonanwholovecomputer'),
+        StringStruct('FileDescription', 'FrameKeeper'),
+        StringStruct('FileVersion', '0.7.1.0'),  # 同步版本号
+        StringStruct('InternalName', 'FrameKeeper'),
+        StringStruct('LegalCopyright', u'© Github_huonanwholovecomputer 2025'),
+        StringStruct('OriginalFilename', 'FrameKeeper.exe'),
+        StringStruct('ProductName', 'FrameKeeper'),
+        StringStruct('ProductVersion', '0.7.1.0')  # 同步版本号
+      ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [0x409, 1200])])  # 标准英语区域ID
+  ]
 )
