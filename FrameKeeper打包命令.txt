@@ -1,5 +1,5 @@
 ```cmd
-cd /d "C:\Users\DELL\Desktop\FrameKeeper项目\0.7阶段(问题修复、其他小功能添加)"
-pyinstaller --windowed --icon=FrameKeeper.ico --add-data "C:\ffmpeg\bin\ffmpeg.exe;." --version-file file_version_info.txt "FrameKeeper_0.7.1(修复开机自启动bug).py"
+cd /d "C:\Users\27006\Desktop\FrameKeeper项目\0.7阶段(问题修复、其他小功能添加)"
+pyinstaller --windowed --icon=FrameKeeper.ico --add-data "C:\Program Files (x86)\ffmpeg-7.1.1-essentials_build\bin\ffmpeg.exe;." --version-file file_version_info.txt "FrameKeeper_0.7.2(修复新文件夹创建时机不恰当的问题).py"
 
 ```
